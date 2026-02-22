@@ -43,3 +43,40 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# ═══════════════════════════════════════════
+#  CREDENTIALS & SECRETS — NEVER COMMIT
+# ═══════════════════════════════════════════
+
+# Firebase config files (contain API keys)
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+
+# Environment / secret files
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+
+# Android signing keys
+**/android/key.properties
+**/android/app/**/*.keystore
+**/android/app/**/*.jks
+
+# Key / certificate files
+*.pem
+*.p8
+*.p12
+*.key
+
+# Firebase service accounts
+*-firebase-adminsdk-*.json
+firebase-service-account.json
+service-account-*.json
+
+# ─── IDE / Agent ───
+.vscode/
+.gemini/
+
