@@ -12,7 +12,7 @@ class AppColors {
   static const Color primaryDark = Color(0xFF007A8C);
 
   // ─── Accent (Tomato) ───
-  static const Color accent = Color(0xFFFE4A49);
+  static const Color accent = Color(0xFF23A23F);
   static const Color accentLight = Color(0xFFFF7F7E);
   static const Color accentDark = Color(0xFFD63534);
 

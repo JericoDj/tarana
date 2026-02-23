@@ -249,7 +249,7 @@ class _RiderHomeScreenState extends State<RiderHomeScreen> {
                         const SizedBox(height: 24),
                         Container(
                           decoration: BoxDecoration(
-                            gradient: AppGradients.premiumCard,
+                            gradient: LinearGradient(colors: [AppColors.primary, AppColors.accent]),
                             borderRadius: BorderRadius.circular(20),
                           ),
                           padding: const EdgeInsets.all(20),
@@ -292,13 +292,13 @@ class _RiderHomeScreenState extends State<RiderHomeScreen> {
                                   height: 36,
                                   alignment: Alignment.center,
                                   decoration: BoxDecoration(
-                                    color: AppColors.primary,
+                                    color: Colors.white,
                                     borderRadius: BorderRadius.circular(12),
                                   ),
                                   child: const Text(
                                     'Apply',
                                     style: TextStyle(
-                                      color: Colors.white,
+                                      color: AppColors.primary,
                                       fontWeight: FontWeight.w600,
                                       fontSize: 13,
                                     ),
